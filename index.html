@@ -355,7 +355,13 @@
                 {
                     balloonContent: `
                         <strong>${point.label}</strong><br>
-                        <a href="https://archalert.net/objects/getObject/${point.id}" target="_blank">ID: ${point.id}</a>
+                        <a
+                            href="https://archalert.net/objects/getObject/${point.id}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            ID: ${point.id}
+                        </a>
                     `,
                     hintContent: point.label
                 },
